@@ -1,0 +1,2 @@
+iverilog -o "half_adder_tb.vvp" half_adder_tb.v half_adder.v     //compile
+vvp -n half_adder_tb.vvp                                         //execute
